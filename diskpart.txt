@@ -1,0 +1,24 @@
+REM --------------------Display Initial Configuration--------------------
+rescan
+list disk
+
+REM --------------------Hard Drive 1--------------------
+sel disk 0
+clean
+
+REM --------------------Hard Drive 2--------------------
+sel disk 1
+clean
+
+REM --------------------Hard Drive 2--------------------
+sel disk 2
+clean
+
+REM --------------------Hard Drive 2--------------------
+sel disk 3
+clean
+
+REM --------------------Display Final Configuration--------------------
+rescan
+list disk
+exit
