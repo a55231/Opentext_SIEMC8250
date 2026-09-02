@@ -1,0 +1,21 @@
+[
+	{
+		"Configuration": {
+			"30575502": {
+				"Name": "OPENTEXT/SIEM-C8250",
+				"RequiredHardware": {
+					"CPUType": "AMD EPYC 9254 24-Core @ 2.90GHz",
+					"CPU_Count": "1",
+					"TotalMemory": "96",
+					"TotalDriveCount": "4",
+					"OCP_Required_count": "3",
+					"OCP_NICs_detected": [
+						"Broadcom 5720 Dual Port 1GbE LOM",
+						"Broadcom 57414 Dual Port 10/25 Gbe SFP28, OCP NIC 3.0",
+						"Broadcom 57416 Dual Port 10Gbe BASE-T Adapter, PCIe Low Profile"
+					]
+				}
+			}
+		}
+	}
+]
