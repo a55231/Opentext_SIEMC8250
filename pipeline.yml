@@ -1,0 +1,62 @@
+# ---------------------------------------------------------------------------
+# ***************************************************************************
+#
+# ⚠️ DO NOT MODIFY THIS FILE ⚠️
+#
+#
+# This file is automatically managed and updated by the system.
+# Any manual changes will be overwritten the next time the file is generated.
+# Any manual change may also introduce bugs and errors with your pipeline.
+#
+#
+# ⚠️ DO NOT MODIFY THIS FILE ⚠️
+#
+# ***************************************************************************
+# ---------------------------------------------------------------------------
+
+SchemaVersion: 7
+id: 75
+Description: Server
+Name: Opentext_SIEM-C8250
+PDC: Phoenix
+Jobs:
+  - Name: Hardware Inventroy
+    Description: Hardware Check
+    Environment: AAPE2 Linux
+    Impact: None
+    Packages: []
+    Tasks: []
+    RebootCountdown: null
+    PostProvisioningFiles: []
+    PostProvisioningDriveLetter: ''
+    uuid: 470f36d7-6155-4f6e-83f3-95ec3b55b0af
+  - Name: Diagnostics
+    Description: 2Hr Burn-in
+    Environment: AAPE2 WinPE
+    Impact: None
+    Packages: []
+    Tasks: []
+    RebootCountdown: null
+    PostProvisioningFiles: []
+    PostProvisioningDriveLetter: ''
+    uuid: 003be9af-807c-4003-84fa-4e882eea6869
+  - Name: Image Deploy
+    Description: Apply customer image to system
+    Environment: AAPE2 Linux
+    Impact: None
+    Packages: []
+    Tasks: []
+    RebootCountdown: null
+    PostProvisioningFiles: []
+    PostProvisioningDriveLetter: ''
+    uuid: 61ca5b5d-f45c-4446-8450-7ec72ac5ce51
+  - Name: Post
+    Description: ''
+    Environment: AAPE2 Linux
+    Impact: None
+    Packages: []
+    Tasks: []
+    RebootCountdown: null
+    PostProvisioningFiles: []
+    PostProvisioningDriveLetter: ''
+    uuid: 518e93e4-ab92-43a2-ab86-fbf99aedaf17
